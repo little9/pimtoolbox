@@ -7,6 +7,9 @@ require 'open-uri'
 require 'cgi'
 require 'net/http'
 
+# Listen on all interfaces for Vagrant/Development
+set :bind, '0.0.0.0'
+
 $:.unshift File.join(File.dirname(__FILE__), 'lib')
 require 'validation'
 require 'xslt'
