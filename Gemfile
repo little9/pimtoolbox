@@ -1,7 +1,7 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-gem 'libxml-ruby'
+gem 'libxml-ruby', '2.9.0'
 gem 'libxslt-ruby'
 gem 'rjb'
 gem 'schematron'
