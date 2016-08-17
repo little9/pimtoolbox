@@ -3,9 +3,9 @@ source "https://rubygems.org"
 
 gem 'libxml-ruby', '2.9.0'
 gem 'libxslt-ruby'
-gem 'rjb'
 gem 'schematron'
 gem 'sinatra'
+gem 'rake'
 
 group :test do
   gem 'cucumber'
